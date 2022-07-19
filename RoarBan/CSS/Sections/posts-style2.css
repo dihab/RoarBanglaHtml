@@ -1,0 +1,62 @@
+
+
+.posts-style2-posts{
+    padding: 0 3rem ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media screen and (max-width:850px){
+    .posts-style2-posts{padding: 2rem;}
+}
+.posts-style2-post{
+    margin: 1.6rem 0;
+    flex: 0 0 23%;
+    width: 23%;
+   
+}
+
+
+@media screen and (max-width:1050px){
+    .posts-style2-post{flex: 0 0 30%; width: 30%; }
+}
+
+@media screen and (max-width:810px){
+    .posts-style2-post{flex: 0 0 47%; width: 47%;}
+}
+@media screen and (max-width:610px){
+    .posts-style2-post{flex: 0 0 100%; width: 100%;}
+}
+
+
+
+.posts-style2-post-img-wrapper{
+    width: 100%;
+    height: 17rem;
+}
+.posts-style2-post-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.posts-style2-post-meta1{
+    padding: .8rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts-style2-post-meta1 .post-category{
+   color: rgb(0, 0, 0);
+}
+
+
+.posts-style2-post-meta1 .post-bookmark svg{
+    width: 17px;
+    height: 17px;
+}
+.posts-style2-post-meta2{display: flex; align-items: center; flex-wrap: wrap; }
+
+.posts-style2-post-meta2 .sm-text.read-count{ margin-left: 3rem;}
+

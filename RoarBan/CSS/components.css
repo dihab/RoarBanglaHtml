@@ -1,0 +1,19 @@
+
+
+/* Button Components */
+
+.btn{
+    font-size: 1.3rem;
+    color:var(--white-1);
+    border: 1px solid var(--white-1);
+    padding: 1rem 2.3rem;
+    border-radius: 5px;
+}
+
+.post-bookmark{
+  width: 20px;  
+  cursor: pointer;
+
+}
+.post-bookmark svg{fill: rgb(0, 0, 0);}
+.book_marked{ fill: green;}
